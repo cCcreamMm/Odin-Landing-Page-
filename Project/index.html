@@ -4,28 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <header>
-            <h3 class="logo">My Portfolio</h3>
-            <ul class="link-list">
-                <li><a href="#">My Projects</a></li>
-                <li><a href="#">Socials</a></li>
-                <li><a href="#">Contact</a></li>
-                
-            </ul>
-        </header>
-    </div>
-    <div class="container1">  
-        <div class="info">
-            <h1>Hello Im Dien Mark</h1>
-            <p>I'm a Computer Science student who loves turning ideas into working code from responsive web interfaces to Python-powered computer vision tools. Currently diving deep into modern CSS layouts, JavaScript, and version control to build a strong full-stack foundation.</p>
-            <button>About</button>
+    
+    <div class="top-wrapper">
+        <div class="container">
+            
+            <header class="header">
+                <h1 class="logo">Sulyap</h1>
+                    <nav class="nav-links">
+                        <a href="#">Destinations</a>
+                        <a href="#">Highlights</a>
+                        <a href="#">About</a>
+                    </nav>
+            </header>
+
+            <section class="hero">
+                <div class="hero-text">
+                    <h1 class="title">Where Coasts Meet Peaks</h1>
+                    <p class="p1">A simple visual guide to beaches, highlands, and scenic escapes across the Philippines.</p>
+                    <button class="button1">Explore Spots</button>
+                </div>
+                <div class="hero-image">
+                    <img src="../image/Header-Photo.jpg" alt="A clean photo of beach in Palawan, Philippines. Taken by: Cris Tagupa" class="image1">
+                </div>
+            </section>
         </div>
-        <div class="image1">
-            <img src="../image/profile.jpg" alt="My Profile picture" width="300" height="400">
+    </div>
+
+    <div class="container2">
+        <h2 class="title2">Places Worth a Glimpse</h2>
+        <ul class="lists">
+            <li>
+                <div class="images">
+                    <img src="../image/SIargao.jpg" alt="">
+                </div>
+                <p class="p2">Siargao, the Surfing Capital of the Philippines, is a laid-back teardrop island known for world-class waves, white sands, and vast palm groves.</p>
+            </li>
+            <li>
+                <div class="images">
+                    <img src="../image/Chocolate-Hills.jpg" alt="">
+                </div>
+                <p class="p2">The Chocolate Hills are a famous group of 1,260 to over 1,776 cone- and dome-shaped hills in Bohol, Philippines, that turn chocolate brown during the dry season.</p>
+            </li>
+            <li>
+                <div class="images">
+                    <img src="../image/Mayon-Volcano.jpg" alt="">
+                </div>
+                <p class="p2">Mayon Volcano is an active stratovolcano in Albay, Bicol Region, Philippines, famous for its nearly symmetrical cone shape. It is the most active volcano in the country.</p>
+            </li>
+            <li>
+                <div class="images">
+                    <img src="../image/Rice-teraces.jpg" alt="">
+                </div>
+                <p class="p2">The rice terraces of the Philippines are roughly 2,000-year-old farming steps carved into the mountains of Ifugao in northern Luzon by the indigenous Ifugao people.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container3">
+        <div class="qoute">
+            <q>This is an aspiring qoute, or a testimonial ffrom a costomer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know that it's looks nice.</q>
+        </div>
+        <p class="from"><strong> - Thor, God of thunder</strong></p>
+    </div>
+
+    
+    <div class="last">
+        <div class="container4">
+            <div class="contents">
+                <div class="text">
+                    <h3>Call to Action! It's time!</h3>
+                    <p class="p3">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="yeah">
+                <button class="button2">Sign up</button>
+                </div>
+            </div>
         </div>
     </div>
+    
+    <footer>
+        <p class="copyright">Copyright &copy; The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
